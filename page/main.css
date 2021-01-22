@@ -1,0 +1,11 @@
+@import url('our-approach.css');
+@import url('case.css');
+@import url('open-card.css');
+@import url('besk-tech.css');
+@import url('dev-stages.css');
+@import url('product.css');
+@import url('services.css');
+
+.content {
+  margin: 0 auto;
+}

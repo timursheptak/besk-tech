@@ -1,0 +1,267 @@
+.dev-stages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dev-stages__title {
+  max-width: 350px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 60px;
+  color: #FFFFFF;
+  margin: 160px auto 0;
+}
+
+.stages {
+  margin-top: 110px;
+  padding-bottom: 290px;
+}
+
+.stage {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "a b"
+                       "c d"
+                       "e f"
+                       "g h";
+}
+
+.stage__text-box {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.stage__text-box_grid_a {
+  grid-area: a;
+}
+
+.stage__text-box_grid_d {
+  grid-area: d;
+}
+
+.stage__text-box_grid_e {
+  grid-area: e;
+}
+
+.stage__text-box_grid_h {
+  grid-area: h;
+}
+
+.stage__text-box:nth-child(odd) {
+  justify-self: end;
+  margin-right: 100px;
+}
+
+.stage__text-box:nth-child(even) {
+  justify-self: start;
+  margin-left: 100px;
+}
+
+.stage__subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: left;
+  color: #6DD0EF;
+  margin: 0 0 30px;
+}
+
+.stage__subtitle_align {
+  text-align: right;
+}
+
+.stage__paragraph {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0 0 80px;
+}
+
+.stage__paragraph_align {
+  text-align: right;
+}
+
+.stage__image {
+  height: 123px;
+  width: 162px;
+}
+
+.stage__image_grid_b {
+  grid-area: b;
+}
+
+.stage__image_grid_c {
+  grid-area: c;
+}
+
+.stage__image_grid_f {
+  grid-area: f;
+}
+
+.stage__image_grid_g {
+  grid-area: g;
+}
+
+.stage__image:nth-child(even) {
+  justify-self: start;
+  margin-left: 100px;
+}
+
+.stage__image:nth-child(odd) {
+  justify-self: end;
+  margin-right: 100px;
+}
+
+.line {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 2px;
+  background-color: rgba(255, 255, 255, .2);
+  position: absolute;
+  left: 50%;
+  top: 0;
+}
+
+.dot {
+  position: relative;
+  left: -4px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.dot:first-child {
+  position: relative;
+  top: -5px;
+}
+
+.dot:last-child {
+  position: relative;
+  bottom: -5px;
+}
+
+@media screen and (max-width: 769px) {
+  .line {
+    left: 50px;
+  }
+
+  .stage__text-box_grid_d {
+    grid-area: c;
+  }
+
+  .stage__text-box_grid_h {
+    grid-area: g;
+  }
+
+  .stage__image_grid_c {
+    grid-area: d;
+  }
+  
+  .stage__image_grid_g {
+    grid-area: h;
+  }
+
+  .stage__subtitle_align {
+    text-align: left;
+  }
+  
+  .stage__paragraph_align {
+    text-align: left;
+  }
+
+  .stage__image:nth-child(odd) {
+    justify-self: start;
+    margin-right: 0;
+    margin-left: 100px;
+  }
+
+  .stage__text-box:nth-child(odd) {
+    justify-self: end;
+    margin-right: 0;
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .stage {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas: "a"
+                         "b"
+                         "c"
+                         "d"
+                         "e"
+                         "f"
+                         "g"
+                         "h";
+  }
+
+  .stage__paragraph {
+    width: 250px;
+    margin: 0 0 40px;
+  }
+
+  .stage__text-box:nth-child(odd) {
+    justify-self: start;
+  }
+
+  .stage__subtitle {
+    font-size: 25px;
+    line-height: 35px;
+    margin: 0 0 20px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .stage__paragraph {
+    width: 250px;
+    margin: 0 0 20px;
+  }
+
+  .dev-stages__title {
+    max-width: 300px;
+    font-size: 50px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin: 160px auto 0;
+  }
+
+  .stage__image:nth-child(odd) {
+    margin-left: 50px;
+  }
+
+  .stage__image:nth-child(even) {
+    margin-left: 50px;
+  }
+
+  .stage__text-box:nth-child(odd) {
+    margin-left: 50px;
+  }
+
+  .stage__text-box:nth-child(even) {
+    margin-left: 50px;
+  }
+
+  .line {
+    left: 15px;
+  }
+}

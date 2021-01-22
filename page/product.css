@@ -1,0 +1,131 @@
+.product {
+  position: relative;
+  top: -240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 1000px;
+  border-radius: 20px;
+  background-color: #FF005C;
+  margin: 0 auto;
+}
+
+.product__phone {
+  height: 458px;
+  width: 512px;
+  margin: 0 0 55px 40px;
+}
+
+.product__text-box {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.product__subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: left;
+  margin: 0 0 25px 0;
+  color: white;
+}
+
+.product__paragraph {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  margin: 0 0 27px 0;
+  color: white;
+}
+
+@media screen and (max-width: 1025px) {
+  .product {
+    width: 85%;
+  }
+
+  .product__text-box {
+    width: 350px;
+    margin: -20px 0 0 -80px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .product__text-box {
+    width: 380px;
+    margin: -90px auto 40px;
+  }
+
+  .product {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .product__phone {
+    height: auto;
+    width: 80%;
+    position: relative;
+    left: 38px;
+    bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .product {
+    width: 80%;
+  }
+
+  .product__phone {
+    height: 320px;
+    width: 320px;
+    margin: 0 0 0 -20px;
+  }
+
+  .product__text-box {
+    width: 280px;
+    margin: -40px auto 40px;
+  }
+
+  .product__subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 0 25px 0;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .product__phone {
+    height: 320px;
+    width: 320px;
+    position: relative;
+    left: 20px;
+    bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .product {
+    width: 90%;
+  }
+
+  .product__phone {
+    height: 300px;
+    width: 300px;
+  }
+
+  .product__text-box {
+    width: 260px;
+  }
+}

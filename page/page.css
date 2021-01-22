@@ -1,0 +1,13 @@
+@import url('menu.css');
+@import url('header.css');
+@import url('main.css');
+
+.page {
+  width: 100%;
+  background-color: #01215C;
+  margin: 0 auto;
+}
+
+.page_fixed {
+  overflow: hidden;
+}

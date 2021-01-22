@@ -1,0 +1,90 @@
+.menu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: -100%;
+  height: 100vh;
+  width: 30%;
+  min-width: 280px;
+  overflow: auto;
+  background-color: white;
+  transition: all 0.4s ease;
+  z-index: 4;
+}
+
+.menu_open {
+  right: 0;
+}
+
+.icon {
+  height: 21px;
+  width: 22px;
+  z-index: 4;
+  cursor: pointer;
+}
+
+.icon_mobile {
+  border-radius: 5px;
+  background-color: white;
+}
+
+.icon_position {
+  position: fixed;
+  top: 48px;
+  right: 48px;
+}
+
+.icon__top-stick {
+  display: block;
+  position: absolute;
+  top: 5px;
+  width: 22px;
+  height: 3px;
+  border-radius: 2px;
+  z-index: 2;
+  transition-duration: .25s;
+  background-color: white;
+}
+
+.icon__bottom-stick {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 5px;
+  width: 22px;
+  height: 3px;
+  border-radius: 2px;
+  z-index: 2;
+  transition-duration: .25s;
+  background-color: white;
+}
+
+.icon__top-stick_menu_open {
+  top: 9px;
+  transform: rotate(-45deg);
+  background-color: black;
+}
+
+.icon__bottom-stick_menu_open {
+  bottom: 9px;
+  transform: rotate(45deg);
+  background-color: black;
+}
+
+.menu__items{
+  list-style: none;
+  padding: 0;
+}
+
+.menu__item {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 50px;
+  color: #01215C;
+  margin: 0 0 18px;
+}

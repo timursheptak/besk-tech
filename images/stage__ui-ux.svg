@@ -1,0 +1,11 @@
+<svg width="133" height="129" viewBox="0 0 133 129" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.5" d="M89.5 100L7.99999 100C4.134 100 0.999996 96.866 0.999996 93L1 8C1 4.134 4.13401 0.999994 8 0.999995L125 1C128.866 1 132 4.13401 132 8L132 93C132 96.866 128.866 100 125 100L114.25 100" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<circle opacity="0.5" cx="16.5" cy="16.5" r="4.5" stroke="white" stroke-width="2"/>
+<circle opacity="0.5" cx="16.5" cy="31.5" r="4.5" stroke="white" stroke-width="2"/>
+<circle opacity="0.5" cx="16.5" cy="51.5" r="9.5" stroke="white" stroke-width="2"/>
+<path d="M95.5 12H51C45.4772 12 41 16.4772 41 22V22C41 27.5228 45.4772 32 51 32H109.75C115.411 32 120 36.5891 120 42.25V42.25C120 47.9109 115.411 52.5 109.75 52.5H51.5C45.701 52.5 41 57.201 41 63V63C41 68.799 45.701 73.5 51.5 73.5H74" stroke="white" stroke-width="2"/>
+<path opacity="0.5" d="M31 1.5V99.5" stroke="white" stroke-width="2"/>
+<rect opacity="0.5" x="10" y="74" width="13" height="5" stroke="white" stroke-width="2"/>
+<rect opacity="0.5" x="10" y="85" width="13" height="5" stroke="white" stroke-width="2"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M124.251 116.357L127.534 119.639C127.842 119.947 128.015 120.365 128.015 120.8C128.015 121.236 127.842 121.653 127.534 121.961L122.964 126.531C122.656 126.839 122.239 127.012 121.803 127.012C121.368 127.012 120.95 126.839 120.642 126.531L117.36 123.249L124.251 116.357ZM122.51 114.615L115.618 121.508L78.0548 83.9433L78.0408 83.9433L74 73L84.9432 77.0408L84.9432 77.0548L122.51 114.615Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
