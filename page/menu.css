@@ -20,27 +20,30 @@
 }
 
 .icon {
-  height: 21px;
-  width: 22px;
+  height: 26px;
+  width: 26px;
   z-index: 4;
   cursor: pointer;
 }
 
-.icon_mobile {
-  border-radius: 5px;
-  background-color: white;
+@media screen and (max-width: 1024px) {
+  .icon_mobile {
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid black;
+  }
 }
 
 .icon_position {
   position: fixed;
-  top: 48px;
-  right: 48px;
+  top: 44px;
+  right: 44px;
 }
 
 .icon__top-stick {
   display: block;
   position: absolute;
-  top: 5px;
+  top: 7px;
   width: 22px;
   height: 3px;
   border-radius: 2px;
@@ -50,10 +53,9 @@
 }
 
 .icon__bottom-stick {
-  content: '';
   display: block;
   position: absolute;
-  bottom: 5px;
+  bottom: 8px;
   width: 22px;
   height: 3px;
   border-radius: 2px;
@@ -63,13 +65,15 @@
 }
 
 .icon__top-stick_menu_open {
-  top: 9px;
+  left: 2px;
+  top: 11px;
   transform: rotate(-45deg);
   background-color: black;
 }
 
 .icon__bottom-stick_menu_open {
-  bottom: 9px;
+  left: 2px;
+  bottom: 12px;
   transform: rotate(45deg);
   background-color: black;
 }
@@ -86,5 +90,18 @@
   font-size: 25px;
   line-height: 50px;
   color: #01215C;
-  margin: 0 0 18px;
+  margin: 0 0 15px;
+  padding: 3px 5px;
+  transition-duration: .4s;
+}
+
+.menu__item:hover {
+  background-color: #01215C;
+  color:white;
+}
+
+.menu__item:focus {
+  outline: none;
+  background-color: #01215C;
+  color:white;
 }

@@ -1,6 +1,7 @@
 @import url('menu.css');
 @import url('header.css');
 @import url('main.css');
+@import url('footer.css');
 
 .page {
   width: 100%;

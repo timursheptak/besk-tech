@@ -1,0 +1,19 @@
+.news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4CAFCE;
+  padding: 160px 0 140px;
+}
+
+.arrow__title_pos-news {
+  color: white;
+}
+
+.slick-arrow.slick-prev.button__prev_pos_news {
+  background-image: url('../images/button__prev_pos_news.svg');
+}
+
+.slick-arrow.slick-next.button__next_pos_news {
+  background-image: url('../images/button__next_pos_news.svg');
+}

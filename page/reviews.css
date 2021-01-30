@@ -1,0 +1,203 @@
+.reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #01215C;
+  padding: 160px 0 200px;
+}
+
+.rewiews-box {
+  height: 120px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 45px;
+}
+
+.rewiews-box__title {
+  max-width: 225px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.rewiews-box__paragraph {
+  max-width: 350px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+}
+
+.logos {
+  max-width: 1030px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logos__item {
+  height: 180px;
+  width: 313px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 15px;
+}
+
+.logos__item_kfc {
+  background-image: url('../images/logo__kfc.svg');
+}
+
+.logos__item_rzd {
+  background-image: url('../images/logo__rzd.svg');
+}
+
+.logos__item_sber {
+  background-image: url('../images/logo__sber.svg');
+}
+
+.logos__item_mercedes {
+  background-image: url('../images/logo__mercedes.svg');
+}
+
+.logos__item_sony {
+  background-image: url('../images/logo__sony.svg');
+}
+
+.slider-card {
+  height: 510px;
+  width: 313px;
+  border-radius: 20px;
+  background-color: #17356A;
+  overflow: hidden;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.slider-card__paragraph {
+  height: 100%;
+  width: 253px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+
+.slider-card__paragraph_year {
+  height: max-content;
+  width: 200px;
+  font-size: 16px;
+  line-height: 16px;
+  opacity: 1;
+  margin: 20px 0 15px;
+}
+
+.slider-card__paragraph_company {
+  height: max-content;
+  width: 200px;
+  font-size: 22px;
+  line-height: 22px;
+  opacity: 1;
+  margin: 0;
+}
+
+.slider-card__paragraph_person {
+  height: max-content;
+  width: 200px;
+  font-size: 16px;
+  line-height: 16px;
+  opacity: 1;
+  margin: 0 0 20px;
+}
+
+.slider-card__paragraph_person-position {
+  height: max-content;
+  width: 200px;
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0 0 30px;
+}
+
+.slider-card__paragraph_quotation-right {
+  height: max-content;
+  text-align: right;
+  font-size: 30px;
+  line-height: 22px;
+  opacity: 1;
+  margin: 0 0 30px;
+}
+.slider-card__paragraph_quotation-left {
+  height: max-content;
+  text-align: left;
+  font-size: 30px;
+  line-height: 22px;
+  opacity: 1;
+  margin: 30px 0 0;
+}
+
+.slider-card__image {
+  height: 100%;
+  width: 100%;
+  background-image: url('../images/slider-card-image__place.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .rewiews-box {
+    max-width: 700px;
+    margin: 100px 30px 45px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .logos {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 415px) {
+  .rewiews-box {
+    height: max-content;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rewiews-box__title {
+    height: 130px;
+    text-align: center;
+  }
+  
+  .rewiews-box__paragraph {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .logos__item {
+    margin: 15px 0;
+  }
+}

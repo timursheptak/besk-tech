@@ -1,11 +1,3 @@
-/*--------------------------------------------------HEADER_BUTTONS----------------------------------------------------*/
-
-$(document).ready(function() {
-  $('.showreel').hover(function() {
-    $('.showreel__button').toggleClass('showreel__button_hover');
-  });
-});
-
 /*---------------------------------------------MENU_AND_CARDS_POSITION_OPEN--------------------------------------------*/
 
 const windowInnerWidth = window.innerWidth;
@@ -43,6 +35,15 @@ $(document).ready(function() {
     $('.menu').removeClass('menu_open');
   });
 });
+
+$(document).ready(function() {
+  $('.menu__item').click(function() {
+      $('.icon__top-stick').removeClass('icon__top-stick_menu_open');
+      $('.icon__bottom-stick').removeClass('icon__bottom-stick_menu_open');
+      $('.menu').removeClass('menu_open');
+      $('body').removeClass('page_fixed');
+    });
+  });
 
 /*----------------------------------------------------CARDS_ANIMATION-----------------------------------------------*/
 
@@ -131,3 +132,12 @@ $(document).ready(function() {
       });
   });
 });
+
+/*--------------------------------------------------HEADER_BUTTONS----------------------------------------------------*/
+
+$(document).ready(function() {
+  $('.showreel').hover(function() {
+    $('.showreel__button').toggleClass('showreel__button_hover');
+  });
+});
+

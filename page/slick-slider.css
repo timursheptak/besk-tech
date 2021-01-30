@@ -1,0 +1,107 @@
+.arrow-box {
+  height: 120px;
+  width: 999px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  color: #6DD0EF;
+  margin: 0;
+}
+
+.arrow__buttons {
+  display: flex;
+}
+
+/* Слайдер */
+.slick-slider{
+  width: 999px;
+}
+
+@media screen and (max-width: 1024px) {
+  .slick-slider{
+    width: 656px;
+  }
+
+  .arrow-box {
+    width: 656px;
+  }
+
+  .arrow__title {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .slick-slider{
+    width: 313px;
+  }
+
+  .arrow-box {
+    width: 313px;
+  }
+}
+
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track{
+  display: flex;
+}
+
+.slick-arrow {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  font-size: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background: none;
+  transition-duration: .25s;
+  margin-left: 20px;
+  padding: 0;
+}
+
+.slick-arrow:first-child {
+  margin-left: 0;
+}
+
+.slick-arrow:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, .1);
+}
+
+.slick-arrow:hover {
+  background-color: rgba(255, 255, 255, .1);
+}
+
+/* Стрелка влево */
+.slick-arrow.slick-prev{
+  background-image: url('../images/button_prev.svg');
+}
+
+/* Стрелка вправо */
+.slick-arrow.slick-next{
+  background-image: url('../images/button_next.svg');
+}
+
+.slider__item {
+  height: 510px;
+  width: 313px;
+  border-radius: 20px;
+  background-color: #17356A;
+  overflow: hidden;
+  margin-left: 30px;
+}

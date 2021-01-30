@@ -1,4 +1,5 @@
 .header {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -31,6 +32,7 @@
 }
 
 .button {
+  text-decoration: none;
   display: flex;
   align-items: center;
   height: 60px;
@@ -39,12 +41,11 @@
   margin: 0;
   background-color: #FF005C;
   cursor: pointer;
+  box-sizing: border-box;
   transition-duration: .25s;
 }
 
 .button:hover {
-  transform: scale(1.1);
-  box-sizing: border-box;
   border: 1px solid white;
 }
 
@@ -61,7 +62,7 @@
 }
 
 .logo {
-  position: fixed;
+  position: absolute;
   top: 48px;
   left: 50px;
   height: 44px;
@@ -81,6 +82,7 @@
 }
 
 .showreel {
+  text-decoration: none;
   position: absolute;
   left: 50px;
   bottom: 50px;
@@ -94,7 +96,7 @@
   width: 60px;
   border-radius: 50%;
   background-color: #FF005C;
-  background-image: url('/images/showreel__button-play-image.svg');
+  background-image: url('../images/showreel__button-play-image.svg');
   background-repeat: no-repeat;
   background-position-x: 23px;
   background-position-y: center;

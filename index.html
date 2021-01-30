@@ -12,7 +12,7 @@
 </head>
 <body>
   <div class="page">
-    <header class="header">
+    <header class="header" id="header">
       <div class="menu-horizontal menu-horizontal_position"></div>
       <div class="menu">
         <div class="icon icon_position">
@@ -21,14 +21,15 @@
         </div>
         <nav>
             <ul class="menu__items">
-                <li><a href="#" class="menu__item">Наш подход</a></li>
-                <li><a href="#" class="menu__item">Кейсы</a></li>
-                <li><a href="#" class="menu__item">Besk Tech</a></li>
-                <li><a href="#" class="menu__item">Этапы разработки</a></li>
-                <li><a href="#" class="menu__item">Услуги</a></li>
-                <li><a href="#" class="menu__item">Наши компетенции</a></li>
-                <li><a href="#" class="menu__item">Новости</a></li>
-                <li><a href="#" class="menu__item">Контакты</a></li>
+                <li><a href="#header" class="menu__item">Главная</a></li>
+                <li><a href="#our-approach" class="menu__item">Наш подход</a></li>
+                <li><a href="#case" class="menu__item">Кейсы</a></li>
+                <li><a href="#besh-tech" class="menu__item">Besk Tech</a></li>
+                <li><a href="#dev-stages" class="menu__item">Этапы разработки</a></li>
+                <li><a href="#services" class="menu__item">Услуги</a></li>
+                <li><a href="#competence" class="menu__item">Наши компетенции</a></li>
+                <li><a href="#news" class="menu__item">Отзывы</a></li>
+                <li><a href="#footer" class="menu__item">Контакты</a></li>
             </ul>
         </nav>
       </div>
@@ -37,16 +38,18 @@
         <h1 class="header__title">Мы разрабатываем диджитал 
           <span class="header__title-span-accent">продукты для роста
           </span> вашего <span class="header__title-span-accent">бизнеса</span></h1>
-        <div class="button">
+        <a class="button" href="#case">
           <span class="button__text">Наши проекты</span>
-        </div>
+        </a>
       </div>
       <img class="logo" src="images/logo.svg" alt="Besk-tech">
-      <img class="drag-horizontal" src="images/drag-horizontal.svg" alt="Горизонтальное перемещение">
-      <div class="showreel">
+      <a  class="drag-horizontal" href="#case">
+        <img src="images/drag-horizontal.svg" alt="Горизонтальное перемещение">
+      </a>
+      <a class="showreel" href="https://www.youtube.com/" target="_blank">
         <div class="showreel__button"></div>
         <p class="showreel__title">Showreel 2020</p>
-      </div>
+      </a>
       <div class="social">
         <a class="social__link" href="#" target="_blank">
         <img class="social__link-image" src="images/icon-telegram.svg" alt="Telegram">
@@ -68,7 +71,7 @@
       </div>
     </header>
     <main class="content">
-      <section class="our-approach">
+      <section class="our-approach" id="our-approach">
         <h2 class="our-approach__title">
           Наш подход<br>
           — работа на результат
@@ -111,7 +114,7 @@
         </ul>
       </section>
 
-      <section class="case">
+      <section class="case" id="case">
         <div class="open-card">
           <div class="open-card__background">
             <img class="open-card__image" src="images/card__zum.PNG" alt="Изображение не загрузилось">
@@ -144,7 +147,6 @@
             <li class="case-navigate__item">Мобильные<br>приложения</li>
           </ul>
         </nav>
-        <!----------------------------------CARDS-START----------------------------------------->
         <div class="card card_indent card_zum_pos">
           <div class="card__background card__background_color_brown">
           </div>
@@ -215,24 +217,23 @@
             <span>Веб сайт</span>
           </a>
         </div>
-        <!----------------------------------CARDS-END----------------------------------------->
       </section>
 
-      <section class="besk-tech">
+      <section class="besk-tech" id="besh-tech">
         <div class="title-box">
           <h2 class="besk-tech__title">Besk Tech</h2>
           <p class="besk-tech__paragraph">Мы компания с богатым опытом, которая профессионально создаёт:</p>
           <p class="besk-tech__paragraph">сайты, сервисы, мобильные приложения, личные кабинеты, программы лояльности 
             и системы навигации. Мы создаем единый пользовательский опыт, строим бизнес-процессы, ориентируясь на CX, UX, 
             аналитику и показатели бизнеса.</p>
-            <div class="button button_pos_besk-tech">
+            <a class="button button_pos_besk-tech" href="#footer">
               <span class="button__text">Давайте пoобщаемся</span>
-            </div>
+            </a>
         </div>
         <img class="besk-tech__robot" src="images/besk-tech__robot.png" alt="Изображение не загрузилось">
       </section>
 
-      <section class="dev-stages">
+      <section class="dev-stages" id="dev-stages">
         <h2 class="dev-stages__title">Этапы разработки</h2>
         <div class="stages">
           <div class="stage">
@@ -279,7 +280,7 @@
         </div>
       </section>
 
-      <section class="services">
+      <section class="services" id="services">
         <div class="product">
           <img class="product__phone" src="images/product__phone.png" alt="Изображение не загрузилось">
           <div class="product__text-box">
@@ -308,15 +309,217 @@
           <li class="blocks__item"><p class="blocks__text">AR-VR & Games</p></li>
           <li class="blocks__item"><p class="blocks__text">Автоматизация документооборота и закупок</p></li>
           <li class="blocks__item"><p class="blocks__text">Автоматизация и управление</p></li>
-          <li class="blocks__item"><p class="blocks__text">Branding & UI/ UX Дизайн</p></li>
+          <li class="blocks__item"><p class="blocks__text">Branding & UI/UX Дизайн</p></li>
           <li class="blocks__item"><p class="blocks__text">GIS/Interactive map/BI</p></li>
-          <li class="blocks__item"><p class="blocks__text">Услуги IT-аутсорсинга /ITIL</p></li>
+          <li class="blocks__item"><p class="blocks__text">Услуги IT-аутсорсинга/ITIL</p></li>
           <li class="blocks__item"><p class="blocks__text">QA Услуги</p></li>
         </ul>
       </section>
 
-      <footer class="footer">
+      <section class="twenty-years">
+        <img class="twenty-years__robots" src="images/twenty-years__robots.png" alt="Изображение не загрузилось">
+        <ul class="digits">
+          <li class="digits__item">
+            <h3 class="digits__title">20+</h3>
+            <p class="digits__paragraph">Лет на рынке</p>
+          </li>
+          <li class="digits__item">
+            <h3 class="digits__title">1</h3>
+            <p class="digits__paragraph">Место<br> дизайн-рейтингов</p>
+          </li>
+          <li class="digits__item">
+            <h3 class="digits__title">120+</h3>
+            <p class="digits__paragraph">Сотрудников</p>
+          </li>
+          <li class="digits__item">
+            <h3 class="digits__title">250+</h3>
+            <p class="digits__paragraph">Реализованных проектов</p>
+          </li>
+        </ul>
+      </section>
 
+      <section class="competence" id="competence">
+        <div class="competence__box">
+          <h2 class="competence__title">Наши компетенции</h2>
+          <ul class="competence-table">
+            <li class="competence-table__item">
+              <h3 class="competence-table__title">Frontend</h3>
+              <p class="competence-table__paragraph">HTML5, CSS3, JavaScript (es6+), ReactJS, redux, react-router 
+                (including server side rendering), AngularJS, Vuejs, redux, pug, handlebars, node.js, mongodb, mongoose, 
+                some ci/cd experience (jenkins, gitlabci) and docker), bootstrap, webpack3, gulp, NodeJS, Webpack, jQuery</p>
+              <h3 class="competence-table__title">Android</h3>
+              <p class="competence-table__paragraph">- Java, Kotlin, Groovy, XML, - OrmLite, Room, Realm, GreenDao - 
+                Clean Architecture, MVP, Dependecy Injection: Dagger2, ButterKnife, android databinding, RxJava+RxAndroid - 
+                Retrofit, OkHttp</p>
+              <h3 class="competence-table__title">DB</h3>
+              <p class="competence-table__paragraph">MySQL, PostgreSQL, MongoDB, Redis, Mssql, oracle, Percona, Apache Cassandra</p>
+              <h3 class="competence-table__title">SOFTWARE testing</h3>
+              <p class="competence-table__paragraph">Jmeter, Badboy, SOAP UI, Postman, PICT, Pairwiser, Fiddler, TamperData, 
+                Android Studio, Genymotion, Testrail, Zephyr for Jira, TFS</p>
+            </li>
+            <li class="competence-table__item">
+              <h3 class="competence-table__title">Backend</h3>
+              <p class="competence-table__paragraph">PHP, PHP Symfony, PHP Zend Expressive, Python Flask, Python, Django, 
+                Node.js Koa, Node.js Express, .NET, NET Core, .NET MVC, Confluence, Sonar Qube, JAVA, Laravel, Wordpress, Drupal, 
+                Alfresco, OpenCMS, Liferay, Joomla, Open Cart, MODX, OpenCMS, Magnolia, Spring boot, Jahia, dotCMS, Spring Cloud, 
+                .NET Core, ASP.NET, Nuxeo, JBPM, Activity</p>
+              <h3 class="competence-table__title">iOS</h3>
+              <p class="competence-table__paragraph">- Swift, Objective C - Core Data - VIPER, MVVM, MVC - Alamofire, AFNetworking, 
+                UrlSession</p>
+              <h3 class="competence-table__title">Smart TV</h3>
+              <p class="competence-table__paragraph">- VAST, MRAID and another<br>- Web Sockets<br>- 3D-graphic<br>- EPG<br>
+                - DRM (videwine, playready)<br>- HLS, Live Streaming, mp4.</p>
+            </li>
+            <li class="competence-table__item">
+              <h3 class="competence-table__title">Системное администрирование и другое</h3>
+              <p class="competence-table__paragraph">Monitoring (icinga, zabbix, prometheus, ELK), Docker, ansible, CI/CD 
+                (jenkins, teamcity, octopus, gitlab-ci), databases postgres, pgpool, mysql, mssql, (incl. master-slave, 
+                master-master and replica-set), Ubuntu Linux, VMWare, CentOS, MS Windows Server 2012 R2, MS Windows 7 pro, 
+                MS Windows 10 pro/enterprise, ArenaData Hadoop, Greenplum Database, Nginx, GitLab, Kafka, Apache Camel, 
+                ElasticSearch, Apache Karaf, Kubernetes</p>
+              <h3 class="competence-table__title">QA</h3>
+              <p class="competence-table__paragraph">Selenium, Jmeter, Postman, Fiddler, Charles, Android Studio, Xcode, 
+                DevTools, Jira, Git, Redmine, Testpalm, Startrack</p>
+              <h3 class="competence-table__title">AR&VR</h3>
+              <p class="competence-table__paragraph">- Development: Unity, ARKit, ARCore, Vuforia, Unreal Engine - 3D: 3DsMax, 
+                Blender, Substance</p>
+            </li>
+          </ul>
+        </div>
+        <img class="competence__robot" src="images/competence__robot.png" alt="Изображение не загрузилось">
+      </section>
+
+      <section class="reviews">
+        <div class="rewiews-box">
+          <h2 class="rewiews-box__title">Нам доверяют</h2>
+          <p class="rewiews-box__paragraph">Мы работаем с разными компаниями из России и по всему миру. 
+            Для каждого клиента мы обнуляемся и находим максимально непохожие решения. 
+            Новый заказчик — новая история.</p>
+        </div>
+        <div class="logos">
+          <div class="logos__item logos__item_kfc"></div>
+          <div class="logos__item logos__item_rzd"></div>
+          <div class="logos__item logos__item_sber"></div>
+          <div class="logos__item logos__item_mercedes"></div>
+          <div class="logos__item logos__item_sony"></div>
+        </div>
+      </section>
+
+      <section class="news" id="news">
+        <div class="slider-box">
+          <div class="arrow-box">
+            <h3 class="arrow__title arrow__title_pos-news">Отзывы</h3>
+            <div class="arrow__buttons"></div>
+          </div>
+          <div class="slider">
+            <div class="slider-card">
+              <p class="slider-card__paragraph slider-card__paragraph_year">2020</p>
+              <p class="slider-card__paragraph slider-card__paragraph_company">Tagline<br>Awards</p>
+              <div class="slider-card__image"></div>
+              <p class="slider-card__paragraph slider-card__paragraph_person">Минстрой<br>лучший сайт</p>
+            </div>
+            <div class="slider-card">
+              <p class="slider-card__paragraph slider-card__paragraph_year">2020</p>
+              <p class="slider-card__paragraph slider-card__paragraph_company">Компания написавшая отзыв</p>
+              <p class="slider-card__paragraph slider-card__paragraph_quotation-left">«</p>
+              <p class="slider-card__paragraph">Мы работаем с разными компаниями из России и 
+                по всему миру. Для каждого клиента мы обнуляемся и находим максимально непохожие 
+                решения. Новый заказчик — новая история.</p>
+              <p class="slider-card__paragraph slider-card__paragraph_quotation-right">»</p>
+              <p class="slider-card__paragraph slider-card__paragraph_person">Персона написавшая отзыв</p>
+              <p class="slider-card__paragraph slider-card__paragraph_person-position">Должность написавшего</p>
+            </div>
+            <div class="slider-card">
+              <p class="slider-card__paragraph slider-card__paragraph_year">2020</p>
+              <p class="slider-card__paragraph slider-card__paragraph_company">Компания написавшая отзыв</p>
+              <p class="slider-card__paragraph slider-card__paragraph_quotation-left">«</p>
+              <p class="slider-card__paragraph">Мы работаем с разными компаниями из России и 
+                по всему миру. Для каждого клиента мы обнуляемся и находим максимально непохожие 
+                решения. Новый заказчик — новая история.</p>
+              <p class="slider-card__paragraph slider-card__paragraph_quotation-right">»</p>
+              <p class="slider-card__paragraph slider-card__paragraph_person">Персона написавшая отзыв</p>
+              <p class="slider-card__paragraph slider-card__paragraph_person-position">Должность написавшего</p>
+            </div>
+            <div class="slider-card">
+              <p class="slider-card__paragraph slider-card__paragraph_year">2020</p>
+              <p class="slider-card__paragraph slider-card__paragraph_company">Компания написавшая отзыв</p>
+              <p class="slider-card__paragraph slider-card__paragraph_quotation-left">«</p>
+              <p class="slider-card__paragraph">Мы работаем с разными компаниями из России и 
+                по всему миру. Для каждого клиента мы обнуляемся и находим максимально непохожие 
+                решения. Новый заказчик — новая история.</p>
+              <p class="slider-card__paragraph slider-card__paragraph_quotation-right">»</p>
+              <p class="slider-card__paragraph slider-card__paragraph_person">Персона написавшая отзыв</p>
+              <p class="slider-card__paragraph slider-card__paragraph_person-position">Должность написавшего</p>
+            </div>
+          </div>
+        </div>
+        <script src="script/slick.min.js"></script>
+        <script src="script/slider.js"></script>
+        <script src="script/slider_pos_news.js"></script>
+      </section>
+
+      <footer class="footer" id="footer">
+        <div class="connection">
+          <h2 class="connection__title">Напишите нам</h2>
+          <div class="conection__input-box">
+            <p class="connection__paragraph">Здравствуйте, меня зовут</p>
+            <input class="connection__input" type="text" placeholder="Ваше имя">
+            <p class="connection__paragraph">и я хотел бы обсудить наш будущий проект.</p>
+          </div>
+          <div class="conection__input-box">
+            <p class="connection__paragraph">Вы можете написать мне на</p>
+            <input class="connection__input" type="email" placeholder="Ваш email">
+          </div>
+          <div class="conection__input-box">
+            <p class="connection__paragraph">или связаться со мной по</p>
+            <input class="connection__input" type="text" placeholder="Ваш телефон">
+            <p class="connection__paragraph">.</p>
+          </div>
+          <div class="conection__input-box">
+            <p class="connection__paragraph">Я заинтересован в</p>
+            <div class="connection__label-box">
+              <label class="connection__label-checkbox">
+                <input class="connection__checkbox" type="checkbox" checked>
+                <span class="connection__span-checkbox">Веб сайт</span>
+              </label>
+              <label class="connection__label-checkbox">
+                <input class="connection__checkbox" type="checkbox">
+                <span class="connection__span-checkbox">Мобильное приложение</span>
+              </label>
+              <label class="connection__label-checkbox">
+                <input class="connection__checkbox" type="checkbox">
+                <span class="connection__span-checkbox">Интеграция</span>
+              </label>
+              <label class="connection__label-checkbox">
+                <input class="connection__checkbox" type="checkbox">
+                <span class="connection__span-checkbox">Брендинг</span>
+              </label>
+              <label class="connection__label-checkbox">
+                <input class="connection__checkbox" type="checkbox">
+                <span class="connection__span-checkbox">Другое</span>
+              </label>
+            </div>
+          </div>
+          <div class="conection__input-box conection__input-box_textarea">
+            <p class="connection__paragraph">Немного о проекте</p>
+            <textarea class="connection__input connection__input_textarea" type="text" placeholder="Необходимо..."></textarea>
+          </div>
+          <div class="conection__input-box">
+            <button class="connection__button">
+              <p class="connection__button-text">Отправить</p>
+            </button>
+            <div class="connection__link-box">
+              <a class="connection__link" href="tel:+74952542525">
+                <img class="connection__link-image" src="images/icon__phone_pos_footer.svg" alt="Иконка телефона">
+                <p class="connection__paragraph">+7 495 254 25 25</p>
+              </a>
+              <a class="connection__link" href="mailto:info@thedigitalpanda.com">
+                <img class="connection__link-image" src="images/icon__mail_pos_footer.svg" alt="Иконка почты">
+                <p class="connection__paragraph">info@thedigitalpanda.com</p>
+              </a>
+          </div>
+          </div>
+        </div>
       </footer>
     </main>
   </div>

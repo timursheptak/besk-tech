@@ -13,7 +13,7 @@
   grid-auto-rows: auto;
   grid-gap: 29px;
   margin: 0;
-  padding: 0;
+  padding: 0 0 110px 0;
 }
 
 .blocks__title {
