@@ -52,7 +52,7 @@ $(document).ready(function() {
     $('.card_zum_pos .card__arrow').toggleClass('card__arrow_hover');
     $('.card_zum_pos .card__button').toggleClass('card__button_hover');
     $('.card_zum_pos .card__background').toggleClass('card__background_hover');
-    $('.open-card__image').attr('src', 'images/card__zum.PNG');
+    $('.open-card__image').attr('src', 'images/card__zum.png');
     $('.open-card__title').text('Zum Rittermahl');
   });
 
@@ -64,7 +64,7 @@ $(document).ready(function() {
     $('.card_mercedes_pos .card__arrow').toggleClass('card__arrow_hover');
     $('.card_mercedes_pos .card__button').toggleClass('card__button_hover');
     $('.card_mercedes_pos .card__background').toggleClass('card__background_hover');
-    $('.open-card__image').attr('src', 'images/card__mercedes.PNG');
+    $('.open-card__image').attr('src', 'images/card__mercedes.png');
     $('.open-card__title').text('Mercedes-Benz');
   });
 
@@ -76,7 +76,7 @@ $(document).ready(function() {
     $('.card_planka_pos .card__arrow').toggleClass('card__arrow_hover');
     $('.card_planka_pos .card__button').toggleClass('card__button_hover');
     $('.card_planka_pos .card__background').toggleClass('card__background_hover');
-    $('.open-card__image').attr('src', 'images/card__planka.PNG');
+    $('.open-card__image').attr('src', 'images/card__planka.png');
     $('.open-card__title').text('Planka');
   });
 
@@ -88,7 +88,7 @@ $(document).ready(function() {
     $('.card_rfbus_pos .card__arrow').toggleClass('card__arrow_hover');
     $('.card_rfbus_pos .card__button').toggleClass('card__button_hover');
     $('.card_rfbus_pos .card__background').toggleClass('card__background_hover');
-    $('.open-card__image').attr('src', 'images/card__rfbus.PNG');
+    $('.open-card__image').attr('src', 'images/card__rfbus.png');
     $('.open-card__title').text('RFBUS');
   });
 
@@ -100,7 +100,7 @@ $(document).ready(function() {
     $('.card_smartins_pos .card__arrow').toggleClass('card__arrow_hover');
     $('.card_smartins_pos .card__button').toggleClass('card__button_hover');
     $('.card_smartins_pos .card__background').toggleClass('card__background_hover');
-    $('.open-card__image').attr('src', 'images/card__smartins.PNG');
+    $('.open-card__image').attr('src', 'images/images/card__smartins.png');
     $('.open-card__title').text('Smartins');
 
     $('.card_smartins_pos').click(function() {
@@ -112,7 +112,7 @@ $(document).ready(function() {
     $('.card_max_pos .card__arrow').toggleClass('card__arrow_hover');
     $('.card_max_pos .card__button').toggleClass('card__button_hover');
     $('.card_max_pos .card__background').toggleClass('card__background_hover');
-    $('.open-card__image').attr('src', 'images/card__max.PNG');
+    $('.open-card__image').attr('src', 'images/card__max.png');
     $('.open-card__title').text('Печи MAX');
 
     $('.card_max_pos').click(function() {
@@ -124,7 +124,7 @@ $(document).ready(function() {
     $('.card_farm_pos .card__arrow').toggleClass('card__arrow_hover');
     $('.card_farm_pos .card__button').toggleClass('card__button_hover');
     $('.card_farm_pos .card__background').toggleClass('card__background_hover');
-    $('.open-card__image').attr('src', 'images/card__farm.PNG');
+    $('.open-card__image').attr('src', 'images/images/card__farm.png');
     $('.open-card__title').text('ФармАкта');
 
     $('.card_farm_pos').click(function() {
