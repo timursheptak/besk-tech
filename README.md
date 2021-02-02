@@ -1,6 +1,6 @@
 # Вёрстка сайта [Besk-Tech](https://timursheptak.github.io/besk-tech/)
 
-![Alt-Besk-Tech](https://yadi.sk/i/q0V3ftw4THw_zg "Мобильное отображение сайта Besk-Tech")
+[![Besk-Tech](https://i.postimg.cc/TYQMSB7t/BKr9hgcc-QOI.jpg)](https://postimg.cc/w7tGR4dN "Мобильное отображение сайта Besk-Tech")
 
 ## Описание проекта:
 
