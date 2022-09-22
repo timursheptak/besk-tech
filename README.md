@@ -1,4 +1,4 @@
-# Вёрстка сайта [Besk-Tech](https://timursheptak.github.io/besk-tech/)
+# Сайт компании [Besk-Tech](https://timursheptak.github.io/besk-tech/)
 
 [![Besk-Tech](https://i.postimg.cc/TYQMSB7t/BKr9hgcc-QOI.jpg)](https://postimg.cc/w7tGR4dN "Мобильное отображение сайта Besk-Tech")
 
